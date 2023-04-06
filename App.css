@@ -1,0 +1,74 @@
+.redColor, .pinkColor, .purpleColor, .blackColor, .whiteColor{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;    
+}
+.redColor{
+    background-color: red;
+    border: 2px solid white;
+}
+.pinkColor{
+    background-color: rgb(195, 94, 110);
+    border: 2px solid black;
+}
+.purpleColor{
+    background-color: purple;
+    border: 2px solid white;
+}
+.blackColor{
+    background-color: black;
+    border: 2px solid white;
+}
+.whiteColor{
+    background-color: white;
+    border: 2px solid black;
+}
+.color{
+    border : none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 3rem;
+    height: 2rem;
+}
+
+.formColor{
+    display:flex;
+    flex-direction: row;
+}
+.colorbtn{
+    border : 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    margin-left: 0.6rem;
+}
+.Text{
+    text-transform: uppercase;
+    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.functionbtn{
+    width: 15rem;
+    margin-top: 1rem;
+}
+.functionbtn1{
+    width: 15rem;
+    margin-top: 0.5rem;
+}
+.inputfield{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.containerText{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.findandreplace{
+    margin-top: 1rem;
+}
